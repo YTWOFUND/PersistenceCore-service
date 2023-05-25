@@ -13,6 +13,6 @@ sed -i.bak -e "s/^persistent_peers =./persistent_peers = "$PEERS"/" $HOME/.persi
 Alternatively, you can add it manually.
 Open the config.toml file with the nano editor.
 ```
-nano .cantod/config/config.toml
+nano .persistenceCore/config/config.toml
 ```
 Add the peer YTWOFUND to the "persistent_peers" line.
