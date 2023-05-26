@@ -2,7 +2,7 @@
 
 Let's set variables:
 ```
-SNAP_RPC="https://persistenceCoreTest-rpc.ytwofund.pro:443"
+SNAP_RPC="https://persistenceCoreTest-rpc.ytwofund.pro"
 
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
